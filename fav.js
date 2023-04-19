@@ -1,7 +1,5 @@
-// const { func } = require("prop-types");
 
 const favourites = document.querySelector(".Favourites");
-// const url = "https://www.themealdb.com/api/json/v1/1/search.php?s="
 
 const favouriteItems = JSON.parse(localStorage.getItem("favouriteItems"));
 console.log(favouriteItems);

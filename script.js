@@ -1,5 +1,3 @@
-// const { json } = require("body-parser");
-
 const homeSection = document.getElementById("home-section");
 const searchBtn = document.getElementById("search-btn");
 const searchResultSection = document.getElementById("search-results-section");
@@ -106,7 +104,7 @@ function createDetailsPage(mealId) {
 }
 
 
-let favouriteItems = [];
+const favouriteItems = [];
 function addToFavourites(mealId) {
 
     fetch(url + val)
